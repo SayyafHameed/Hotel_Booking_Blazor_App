@@ -1,0 +1,410 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\say\\HotelBookingBlazorApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B3319D3B-88D8-406D-B236-22BD906015D6}|HotelBookingBlazorApp\\HotelBookingBlazorApp.csproj|e:\\say\\hotelbookingblazorapp\\hotelbookingblazorapp\\components\\pages\\staffadmin\\saveroomtype.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B3319D3B-88D8-406D-B236-22BD906015D6}|HotelBookingBlazorApp\\HotelBookingBlazorApp.csproj|solutionrelative:hotelbookingblazorapp\\components\\pages\\staffadmin\\saveroomtype.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3319D3B-88D8-406D-B236-22BD906015D6}|HotelBookingBlazorApp\\HotelBookingBlazorApp.csproj|e:\\say\\hotelbookingblazorapp\\hotelbookingblazorapp\\components\\pages\\staffadmin\\manageroomtypes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B3319D3B-88D8-406D-B236-22BD906015D6}|HotelBookingBlazorApp\\HotelBookingBlazorApp.csproj|solutionrelative:hotelbookingblazorapp\\components\\pages\\staffadmin\\manageroomtypes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/SAYAF/HotelBooking/True/SqlTable/dbo.RoomTypes.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3319D3B-88D8-406D-B236-22BD906015D6}|HotelBookingBlazorApp\\HotelBookingBlazorApp.csproj|e:\\say\\hotelbookingblazorapp\\hotelbookingblazorapp\\services\\roomtypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3319D3B-88D8-406D-B236-22BD906015D6}|HotelBookingBlazorApp\\HotelBookingBlazorApp.csproj|solutionrelative:hotelbookingblazorapp\\services\\roomtypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3319D3B-88D8-406D-B236-22BD906015D6}|HotelBookingBlazorApp\\HotelBookingBlazorApp.csproj|e:\\say\\hotelbookingblazorapp\\hotelbookingblazorapp\\models\\roomcreatemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3319D3B-88D8-406D-B236-22BD906015D6}|HotelBookingBlazorApp\\HotelBookingBlazorApp.csproj|solutionrelative:hotelbookingblazorapp\\models\\roomcreatemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3319D3B-88D8-406D-B236-22BD906015D6}|HotelBookingBlazorApp\\HotelBookingBlazorApp.csproj|e:\\say\\hotelbookingblazorapp\\hotelbookingblazorapp\\components\\pages\\staffadmin\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B3319D3B-88D8-406D-B236-22BD906015D6}|HotelBookingBlazorApp\\HotelBookingBlazorApp.csproj|solutionrelative:hotelbookingblazorapp\\components\\pages\\staffadmin\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3319D3B-88D8-406D-B236-22BD906015D6}|HotelBookingBlazorApp\\HotelBookingBlazorApp.csproj|e:\\say\\hotelbookingblazorapp\\hotelbookingblazorapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B3319D3B-88D8-406D-B236-22BD906015D6}|HotelBookingBlazorApp\\HotelBookingBlazorApp.csproj|solutionrelative:hotelbookingblazorapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/SAYAF/HotelBooking/True/SqlTable/dbo.AspNetUsers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3319D3B-88D8-406D-B236-22BD906015D6}|HotelBookingBlazorApp\\HotelBookingBlazorApp.csproj|e:\\say\\hotelbookingblazorapp\\hotelbookingblazorapp\\components\\pages\\staffadmin\\manageamenities.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B3319D3B-88D8-406D-B236-22BD906015D6}|HotelBookingBlazorApp\\HotelBookingBlazorApp.csproj|solutionrelative:hotelbookingblazorapp\\components\\pages\\staffadmin\\manageamenities.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3319D3B-88D8-406D-B236-22BD906015D6}|HotelBookingBlazorApp\\HotelBookingBlazorApp.csproj|e:\\say\\hotelbookingblazorapp\\hotelbookingblazorapp\\services\\amenitiesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3319D3B-88D8-406D-B236-22BD906015D6}|HotelBookingBlazorApp\\HotelBookingBlazorApp.csproj|solutionrelative:hotelbookingblazorapp\\services\\amenitiesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3319D3B-88D8-406D-B236-22BD906015D6}|HotelBookingBlazorApp\\HotelBookingBlazorApp.csproj|e:\\say\\hotelbookingblazorapp\\hotelbookingblazorapp\\services\\seedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3319D3B-88D8-406D-B236-22BD906015D6}|HotelBookingBlazorApp\\HotelBookingBlazorApp.csproj|solutionrelative:hotelbookingblazorapp\\services\\seedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3319D3B-88D8-406D-B236-22BD906015D6}|HotelBookingBlazorApp\\HotelBookingBlazorApp.csproj|e:\\say\\hotelbookingblazorapp\\hotelbookingblazorapp\\components\\shared\\header.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B3319D3B-88D8-406D-B236-22BD906015D6}|HotelBookingBlazorApp\\HotelBookingBlazorApp.csproj|solutionrelative:hotelbookingblazorapp\\components\\shared\\header.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3319D3B-88D8-406D-B236-22BD906015D6}|HotelBookingBlazorApp\\HotelBookingBlazorApp.csproj|e:\\say\\hotelbookingblazorapp\\hotelbookingblazorapp\\components\\account\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B3319D3B-88D8-406D-B236-22BD906015D6}|HotelBookingBlazorApp\\HotelBookingBlazorApp.csproj|solutionrelative:hotelbookingblazorapp\\components\\account\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3319D3B-88D8-406D-B236-22BD906015D6}|HotelBookingBlazorApp\\HotelBookingBlazorApp.csproj|e:\\say\\hotelbookingblazorapp\\hotelbookingblazorapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3319D3B-88D8-406D-B236-22BD906015D6}|HotelBookingBlazorApp\\HotelBookingBlazorApp.csproj|solutionrelative:hotelbookingblazorapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3319D3B-88D8-406D-B236-22BD906015D6}|HotelBookingBlazorApp\\HotelBookingBlazorApp.csproj|e:\\say\\hotelbookingblazorapp\\hotelbookingblazorapp\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3319D3B-88D8-406D-B236-22BD906015D6}|HotelBookingBlazorApp\\HotelBookingBlazorApp.csproj|solutionrelative:hotelbookingblazorapp\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3319D3B-88D8-406D-B236-22BD906015D6}|HotelBookingBlazorApp\\HotelBookingBlazorApp.csproj|e:\\say\\hotelbookingblazorapp\\hotelbookingblazorapp\\components\\shared\\bookingsmall.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B3319D3B-88D8-406D-B236-22BD906015D6}|HotelBookingBlazorApp\\HotelBookingBlazorApp.csproj|solutionrelative:hotelbookingblazorapp\\components\\shared\\bookingsmall.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3319D3B-88D8-406D-B236-22BD906015D6}|HotelBookingBlazorApp\\HotelBookingBlazorApp.csproj|e:\\say\\hotelbookingblazorapp\\hotelbookingblazorapp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3319D3B-88D8-406D-B236-22BD906015D6}|HotelBookingBlazorApp\\HotelBookingBlazorApp.csproj|solutionrelative:hotelbookingblazorapp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3319D3B-88D8-406D-B236-22BD906015D6}|HotelBookingBlazorApp\\HotelBookingBlazorApp.csproj|e:\\say\\hotelbookingblazorapp\\hotelbookingblazorapp\\components\\account\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B3319D3B-88D8-406D-B236-22BD906015D6}|HotelBookingBlazorApp\\HotelBookingBlazorApp.csproj|solutionrelative:hotelbookingblazorapp\\components\\account\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3319D3B-88D8-406D-B236-22BD906015D6}|HotelBookingBlazorApp\\HotelBookingBlazorApp.csproj|e:\\say\\hotelbookingblazorapp\\hotelbookingblazorapp\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B3319D3B-88D8-406D-B236-22BD906015D6}|HotelBookingBlazorApp\\HotelBookingBlazorApp.csproj|solutionrelative:hotelbookingblazorapp\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3319D3B-88D8-406D-B236-22BD906015D6}|HotelBookingBlazorApp\\HotelBookingBlazorApp.csproj|e:\\say\\hotelbookingblazorapp\\hotelbookingblazorapp\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B3319D3B-88D8-406D-B236-22BD906015D6}|HotelBookingBlazorApp\\HotelBookingBlazorApp.csproj|solutionrelative:hotelbookingblazorapp\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3319D3B-88D8-406D-B236-22BD906015D6}|HotelBookingBlazorApp\\HotelBookingBlazorApp.csproj|e:\\say\\hotelbookingblazorapp\\hotelbookingblazorapp\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B3319D3B-88D8-406D-B236-22BD906015D6}|HotelBookingBlazorApp\\HotelBookingBlazorApp.csproj|solutionrelative:hotelbookingblazorapp\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3319D3B-88D8-406D-B236-22BD906015D6}|HotelBookingBlazorApp\\HotelBookingBlazorApp.csproj|e:\\say\\hotelbookingblazorapp\\hotelbookingblazorapp\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B3319D3B-88D8-406D-B236-22BD906015D6}|HotelBookingBlazorApp\\HotelBookingBlazorApp.csproj|solutionrelative:hotelbookingblazorapp\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3319D3B-88D8-406D-B236-22BD906015D6}|HotelBookingBlazorApp\\HotelBookingBlazorApp.csproj|e:\\say\\hotelbookingblazorapp\\hotelbookingblazorapp\\data\\migrations\\20240514202828_addnameroletoapplicationuser..cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3319D3B-88D8-406D-B236-22BD906015D6}|HotelBookingBlazorApp\\HotelBookingBlazorApp.csproj|solutionrelative:hotelbookingblazorapp\\data\\migrations\\20240514202828_addnameroletoapplicationuser..cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3319D3B-88D8-406D-B236-22BD906015D6}|HotelBookingBlazorApp\\HotelBookingBlazorApp.csproj|e:\\say\\hotelbookingblazorapp\\hotelbookingblazorapp\\data\\migrations\\20240516214313_addentities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3319D3B-88D8-406D-B236-22BD906015D6}|HotelBookingBlazorApp\\HotelBookingBlazorApp.csproj|solutionrelative:hotelbookingblazorapp\\data\\migrations\\20240516214313_addentities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 800,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SaveRoomType.razor",
+              "DocumentMoniker": "E:\\say\\HotelBookingBlazorApp\\HotelBookingBlazorApp\\Components\\Pages\\StaffAdmin\\SaveRoomType.razor",
+              "RelativeDocumentMoniker": "HotelBookingBlazorApp\\Components\\Pages\\StaffAdmin\\SaveRoomType.razor",
+              "ToolTip": "E:\\say\\HotelBookingBlazorApp\\HotelBookingBlazorApp\\Components\\Pages\\StaffAdmin\\SaveRoomType.razor",
+              "RelativeToolTip": "HotelBookingBlazorApp\\Components\\Pages\\StaffAdmin\\SaveRoomType.razor",
+              "ViewState": "AQIAAJYAAAAAAAAAAAAAAHQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T21:50:55.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ManageRoomTypes.razor",
+              "DocumentMoniker": "E:\\say\\HotelBookingBlazorApp\\HotelBookingBlazorApp\\Components\\Pages\\StaffAdmin\\ManageRoomTypes.razor",
+              "RelativeDocumentMoniker": "HotelBookingBlazorApp\\Components\\Pages\\StaffAdmin\\ManageRoomTypes.razor",
+              "ToolTip": "E:\\say\\HotelBookingBlazorApp\\HotelBookingBlazorApp\\Components\\Pages\\StaffAdmin\\ManageRoomTypes.razor",
+              "RelativeToolTip": "HotelBookingBlazorApp\\Components\\Pages\\StaffAdmin\\ManageRoomTypes.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T23:00:09.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "E:\\say\\HotelBookingBlazorApp\\HotelBookingBlazorApp\\Components\\Pages\\StaffAdmin\\_Imports.razor",
+              "RelativeDocumentMoniker": "HotelBookingBlazorApp\\Components\\Pages\\StaffAdmin\\_Imports.razor",
+              "ToolTip": "E:\\say\\HotelBookingBlazorApp\\HotelBookingBlazorApp\\Components\\Pages\\StaffAdmin\\_Imports.razor",
+              "RelativeToolTip": "HotelBookingBlazorApp\\Components\\Pages\\StaffAdmin\\_Imports.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-15T13:07:01.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "dbo.RoomTypes [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/SAYAF/HotelBooking/True/SqlTable/dbo.RoomTypes.sql",
+              "ToolTip": "dbo.RoomTypes [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-05-17T21:30:00.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RoomCreateModel.cs",
+              "DocumentMoniker": "E:\\say\\HotelBookingBlazorApp\\HotelBookingBlazorApp\\Models\\RoomCreateModel.cs",
+              "RelativeDocumentMoniker": "HotelBookingBlazorApp\\Models\\RoomCreateModel.cs",
+              "ToolTip": "E:\\say\\HotelBookingBlazorApp\\HotelBookingBlazorApp\\Models\\RoomCreateModel.cs",
+              "RelativeToolTip": "HotelBookingBlazorApp\\Models\\RoomCreateModel.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAADwvwQAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T21:51:31.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RoomTypeService.cs",
+              "DocumentMoniker": "E:\\say\\HotelBookingBlazorApp\\HotelBookingBlazorApp\\Services\\RoomTypeService.cs",
+              "RelativeDocumentMoniker": "HotelBookingBlazorApp\\Services\\RoomTypeService.cs",
+              "ToolTip": "E:\\say\\HotelBookingBlazorApp\\HotelBookingBlazorApp\\Services\\RoomTypeService.cs",
+              "RelativeToolTip": "HotelBookingBlazorApp\\Services\\RoomTypeService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T21:14:49.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SeedService.cs",
+              "DocumentMoniker": "E:\\say\\HotelBookingBlazorApp\\HotelBookingBlazorApp\\Services\\SeedService.cs",
+              "RelativeDocumentMoniker": "HotelBookingBlazorApp\\Services\\SeedService.cs",
+              "ToolTip": "E:\\say\\HotelBookingBlazorApp\\HotelBookingBlazorApp\\Services\\SeedService.cs",
+              "RelativeToolTip": "HotelBookingBlazorApp\\Services\\SeedService.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAQwB8AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T19:35:32.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\say\\HotelBookingBlazorApp\\HotelBookingBlazorApp\\appsettings.json",
+              "RelativeDocumentMoniker": "HotelBookingBlazorApp\\appsettings.json",
+              "ToolTip": "E:\\say\\HotelBookingBlazorApp\\HotelBookingBlazorApp\\appsettings.json",
+              "RelativeToolTip": "HotelBookingBlazorApp\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-14T20:24:45.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "dbo.AspNetUsers [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/SAYAF/HotelBooking/True/SqlTable/dbo.AspNetUsers.sql",
+              "ToolTip": "dbo.AspNetUsers [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-05-17T21:20:28.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ManageAmenities.razor",
+              "DocumentMoniker": "E:\\say\\HotelBookingBlazorApp\\HotelBookingBlazorApp\\Components\\Pages\\StaffAdmin\\ManageAmenities.razor",
+              "RelativeDocumentMoniker": "HotelBookingBlazorApp\\Components\\Pages\\StaffAdmin\\ManageAmenities.razor",
+              "ToolTip": "E:\\say\\HotelBookingBlazorApp\\HotelBookingBlazorApp\\Components\\Pages\\StaffAdmin\\ManageAmenities.razor",
+              "RelativeToolTip": "HotelBookingBlazorApp\\Components\\Pages\\StaffAdmin\\ManageAmenities.razor",
+              "ViewState": "AQIAAJAAAAAAAAAAAAAAAJAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-15T13:07:09.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AmenitiesService.cs",
+              "DocumentMoniker": "E:\\say\\HotelBookingBlazorApp\\HotelBookingBlazorApp\\Services\\AmenitiesService.cs",
+              "RelativeDocumentMoniker": "HotelBookingBlazorApp\\Services\\AmenitiesService.cs",
+              "ToolTip": "E:\\say\\HotelBookingBlazorApp\\HotelBookingBlazorApp\\Services\\AmenitiesService.cs",
+              "RelativeToolTip": "HotelBookingBlazorApp\\Services\\AmenitiesService.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAwwDwAAABoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T19:05:32.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "20240516214313_AddEntities.cs",
+              "DocumentMoniker": "E:\\say\\HotelBookingBlazorApp\\HotelBookingBlazorApp\\Data\\Migrations\\20240516214313_AddEntities.cs",
+              "RelativeDocumentMoniker": "HotelBookingBlazorApp\\Data\\Migrations\\20240516214313_AddEntities.cs",
+              "ToolTip": "E:\\say\\HotelBookingBlazorApp\\HotelBookingBlazorApp\\Data\\Migrations\\20240516214313_AddEntities.cs",
+              "RelativeToolTip": "HotelBookingBlazorApp\\Data\\Migrations\\20240516214313_AddEntities.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T21:43:14.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Header.razor",
+              "DocumentMoniker": "E:\\say\\HotelBookingBlazorApp\\HotelBookingBlazorApp\\Components\\Shared\\Header.razor",
+              "RelativeDocumentMoniker": "HotelBookingBlazorApp\\Components\\Shared\\Header.razor",
+              "ToolTip": "E:\\say\\HotelBookingBlazorApp\\HotelBookingBlazorApp\\Components\\Shared\\Header.razor",
+              "RelativeToolTip": "HotelBookingBlazorApp\\Components\\Shared\\Header.razor",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAE0AAABcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T22:47:25.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Login.razor",
+              "DocumentMoniker": "E:\\say\\HotelBookingBlazorApp\\HotelBookingBlazorApp\\Components\\Account\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "HotelBookingBlazorApp\\Components\\Account\\Pages\\Login.razor",
+              "ToolTip": "E:\\say\\HotelBookingBlazorApp\\HotelBookingBlazorApp\\Components\\Account\\Pages\\Login.razor",
+              "RelativeToolTip": "HotelBookingBlazorApp\\Components\\Account\\Pages\\Login.razor",
+              "ViewState": "AQIAACYAAAAAAAAAAAAAADAAAAChAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T19:44:53.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "20240514202828_AddNameRoleToApplicationUser..cs",
+              "DocumentMoniker": "E:\\say\\HotelBookingBlazorApp\\HotelBookingBlazorApp\\Data\\Migrations\\20240514202828_AddNameRoleToApplicationUser..cs",
+              "RelativeDocumentMoniker": "HotelBookingBlazorApp\\Data\\Migrations\\20240514202828_AddNameRoleToApplicationUser..cs",
+              "ToolTip": "E:\\say\\HotelBookingBlazorApp\\HotelBookingBlazorApp\\Data\\Migrations\\20240514202828_AddNameRoleToApplicationUser..cs",
+              "RelativeToolTip": "HotelBookingBlazorApp\\Data\\Migrations\\20240514202828_AddNameRoleToApplicationUser..cs",
+              "ViewState": "AQIAAM0AAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T20:28:28.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\say\\HotelBookingBlazorApp\\HotelBookingBlazorApp\\Program.cs",
+              "RelativeDocumentMoniker": "HotelBookingBlazorApp\\Program.cs",
+              "ToolTip": "E:\\say\\HotelBookingBlazorApp\\HotelBookingBlazorApp\\Program.cs",
+              "RelativeToolTip": "HotelBookingBlazorApp\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T19:13:50.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BookingSmall.razor",
+              "DocumentMoniker": "E:\\say\\HotelBookingBlazorApp\\HotelBookingBlazorApp\\Components\\Shared\\BookingSmall.razor",
+              "RelativeDocumentMoniker": "HotelBookingBlazorApp\\Components\\Shared\\BookingSmall.razor",
+              "ToolTip": "E:\\say\\HotelBookingBlazorApp\\HotelBookingBlazorApp\\Components\\Shared\\BookingSmall.razor",
+              "RelativeToolTip": "HotelBookingBlazorApp\\Components\\Shared\\BookingSmall.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T20:23:07.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "E:\\say\\HotelBookingBlazorApp\\HotelBookingBlazorApp\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "HotelBookingBlazorApp\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "E:\\say\\HotelBookingBlazorApp\\HotelBookingBlazorApp\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "HotelBookingBlazorApp\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T19:30:35.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "E:\\say\\HotelBookingBlazorApp\\HotelBookingBlazorApp\\Data\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "HotelBookingBlazorApp\\Data\\ApplicationUser.cs",
+              "ToolTip": "E:\\say\\HotelBookingBlazorApp\\HotelBookingBlazorApp\\Data\\ApplicationUser.cs",
+              "RelativeToolTip": "HotelBookingBlazorApp\\Data\\ApplicationUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T19:18:03.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Register.razor",
+              "DocumentMoniker": "E:\\say\\HotelBookingBlazorApp\\HotelBookingBlazorApp\\Components\\Account\\Pages\\Register.razor",
+              "RelativeDocumentMoniker": "HotelBookingBlazorApp\\Components\\Account\\Pages\\Register.razor",
+              "ToolTip": "E:\\say\\HotelBookingBlazorApp\\HotelBookingBlazorApp\\Components\\Account\\Pages\\Register.razor",
+              "RelativeToolTip": "HotelBookingBlazorApp\\Components\\Account\\Pages\\Register.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAMYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T19:48:40.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "E:\\say\\HotelBookingBlazorApp\\HotelBookingBlazorApp\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "HotelBookingBlazorApp\\Components\\_Imports.razor",
+              "ToolTip": "E:\\say\\HotelBookingBlazorApp\\HotelBookingBlazorApp\\Components\\_Imports.razor",
+              "RelativeToolTip": "HotelBookingBlazorApp\\Components\\_Imports.razor",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T19:06:11.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Home.razor",
+              "DocumentMoniker": "E:\\say\\HotelBookingBlazorApp\\HotelBookingBlazorApp\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "HotelBookingBlazorApp\\Components\\Pages\\Home.razor",
+              "ToolTip": "E:\\say\\HotelBookingBlazorApp\\HotelBookingBlazorApp\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "HotelBookingBlazorApp\\Components\\Pages\\Home.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T19:16:10.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "E:\\say\\HotelBookingBlazorApp\\HotelBookingBlazorApp\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "HotelBookingBlazorApp\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "E:\\say\\HotelBookingBlazorApp\\HotelBookingBlazorApp\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "HotelBookingBlazorApp\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T19:11:26.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "App.razor",
+              "DocumentMoniker": "E:\\say\\HotelBookingBlazorApp\\HotelBookingBlazorApp\\Components\\App.razor",
+              "RelativeDocumentMoniker": "HotelBookingBlazorApp\\Components\\App.razor",
+              "ToolTip": "E:\\say\\HotelBookingBlazorApp\\HotelBookingBlazorApp\\Components\\App.razor",
+              "RelativeToolTip": "HotelBookingBlazorApp\\Components\\App.razor",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAD4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T19:04:48.252Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

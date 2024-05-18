@@ -1,0 +1,171 @@
+﻿@page "/staff-admin/manage-amenities"
+@using HotelBookingBlazorApp.Data.Entities
+@using Microsoft.AspNetCore.Antiforgery
+
+@attribute [StreamRendering]
+@attribute [RequireAntiforgeryToken]
+
+@inject IAmenitiesService AmenitiesService
+
+@inject NavigationManager NavigationManager
+
+<div class="container">
+
+    <h1>Manage Amenities</h1>
+    <hr />
+
+    <div class="row d-flex">
+        <div class="col-sm-3">
+            <EditForm Model="Model" Enhance FormName="amenity" OnInvalidSubmit="SaveAmenitiesAsync">
+                <DataAnnotationsValidator />
+                <input type="hidden" Value="@Model.Id" name="Model.Id" />
+                @if (!string.IsNullOrWhiteSpace(_error))
+                {
+                    <div class="mb-3 text-danger">
+                        <small>@_error</small>
+                    </div>
+                }
+                <div class="mb-3">
+                    <label class="form-label">Name: </label>
+                    <InputText @bind-Value="@Model.Name" class="form-control" placeholder="Amenity name" />
+                    <ValidationMessage For="() => Model.Name" class="text-danger" />
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Icon: </label>
+                    <InputText @bind-Value="@Model.Icon" class="form-control" placeholder="Amenity icon" />
+                    <ValidationMessage For="() => Model.Icon" class="text-danger" />
+                </div>
+                <div class="mb-3">
+                    <button type="submit" class="btn btn-sm btn-success" disabled="@_isSaving">
+                        @if (_isSaving)
+                        {
+                            <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
+                            <span role="status">Saving...</span>
+                        }
+                        else
+                        {
+                            <span>Save</span>
+                        }
+                    </button>
+                </div>
+            </EditForm>
+        </div>
+    </div>
+
+    <div class="col-sm-9">
+        <div class="" style="max-height: 75vh; overflow-y: scroll;"> 
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Icon</th>
+                        <th>Name</th>
+                        <th>Icon Css Class</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (_amenities.Length == 0)
+                    {
+                        <tr>
+                            <td colspan="5">
+                                <h4 class="text-danger">no amenity yet. Create one from the left form</h4>
+                            </td>
+                        </tr>
+                    }
+                    @foreach (var a in _amenities)
+                    {
+                        <tr>
+                            <td>@a.Id</td>
+                            <td>
+                                <i class="@a.Icon text-primary"></i>
+                            </td>
+                            <td>@a.Name</td>
+                            <td>
+                                <span>@a.Icon</span>
+                                <i class="@a.Icon text-primary"></i>
+                            </td>
+                            <td>
+                                <a href="staff-admin/manage-amenities?id=@a.Id" class="btn btn-sm btn-primary">Edit</a>
+                                
+                                @* <form method="post" data-enhance @formname="@("edit-"+a.Id)" @onsubmit"() => EditAmenity(a)">
+                            <AntiforgeryToken />
+                            <button type="button" class="btn btn-sm btn-primary">Edit</button>
+                            </form> *@
+                            </td>
+                            <td>
+                                <form method="post" action="staff-admin/manage-amenities/delete/@a.Id">
+                                    <button type="submit" class="btn btn-sm btn-danger">Delete</button>
+                                </form>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+    
+    <hr style="height: 5px" />
+</div>
+
+@code {
+
+    [CascadingParameter]
+    public HttpContext HttpContext { get; set; }
+
+    [SupplyParameterFromForm]
+    private Amenity Model { get; set; } = new();
+
+    [SupplyParameterFromQuery(Name = "id")]
+    private int AmenityId { get; set; }
+
+    private bool _isSaving;
+    private string? _error;
+
+    private Amenity[] _amenities = [];
+    protected override async Task OnInitializedAsync()
+    {
+        _amenities = await AmenitiesService.GetAmenityAsync();
+        if (AmenityId > 0)
+        {
+            if (HttpMethods.IsGet(HttpContext.Request.Method))
+            {
+                var amenity = _amenities.FirstOrDefault(a => a.Id == AmenityId);
+                if (amenity is not null)
+                {
+                    Model = amenity;
+                }
+            }
+        }
+    }
+
+    private void EditAmenity(Amenity amenity) => Model = amenity;
+
+    private async Task SaveAmenitiesAsync()
+    {
+        _error = null;
+        _isSaving = true;
+       // await Task.Delay(3000);
+
+        MethodResult<Amenity> result = await AmenitiesService.SaveAmenityAsync(Model.Clone());
+        if (result.IsSuccess)
+        {
+            if (Model.Id == 0)
+            {
+                _amenities = [.. _amenities, result.Data];
+            }
+            else
+            {
+                var amenity = _amenities.First(a => a.Id == Model.Id);
+                amenity.Name = result.Data.Name;
+                amenity.Icon = result.Data.Icon;
+            }
+            Model = new();
+        }
+        else
+        {
+            _error = result.ErrorMessage ?? "Error in saving amenity";
+        }
+        _isSaving = false;
+    }
+}
